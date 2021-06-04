@@ -1,7 +1,7 @@
 
 .top-section{
    margin: 0;
-   height: 85vh;
+   height: 70vh;
     float: left;
     width: 100%;
     background-image:
@@ -61,13 +61,10 @@
     float: left;
     width: 100%;
 }
-.higlights-feature-section .header h5{
-   
+.higlights-feature-section .header h4{
    
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
     text-decoration: none;
-    outline: none; border:none; 
     padding: 1%;
    
 }
@@ -78,18 +75,26 @@
     font-weight: bolder;
     outline: none; border:none; 
     color: rgb(119, 192, 119);
+    text-transform: capitalize;
 
 
 }
+
 .cards{
    display: flex;
    justify-content: center;
 
 }
-.card1{
-    background-color: red;
+.card{
+
    width: 25%;
    margin: 5px;
+   padding: 1%;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+   
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+
     
 }
 .card2{
@@ -109,4 +114,54 @@
     width: 25%;
     margin: 5px;
     
+}
+.header2{
+    margin-top: 7rem;
+}
+.card i{
+    font-size: 50px;
+    color: rgb(47, 202, 47);
+}
+.cards p{
+   opacity: 60%;
+}
+.more-about-the-app{
+    width: 100%;
+    float: left;
+  
+    //text-align: left;
+}
+.more-about-the-app .heading{
+   padding-top: 1%;
+}
+.more-about-the-app .sub-heading h1{
+  opacity: 65%;
+}
+.about-content{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.about-content .phones{
+    width: 50%;
+    background-color: coral;
+}
+.about-content .details{
+    width: 30%;
+    background-color: cornflowerblue;
+    text-align: left;
+}
+
+.icon{
+   display: flex;
+   justify-content: space-around;
+   width: 45%;
+   padding: 2%;
+}
+.icon i{
+    font-size: 50px;
+}
+.first p{
+    
+    margin-left: 5rem;
 }
