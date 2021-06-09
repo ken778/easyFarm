@@ -181,19 +181,11 @@
   transition: 0.7s;
 }
 
-<<<<<<< HEAD
-.slide-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 30px 0 40px;
-=======
 .slide-div {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 30px 0 30px;
->>>>>>> 6e694dfebe1c2d91d4accb9ea2850367a0ddebc5
 }
 
 .img {
@@ -221,22 +213,12 @@
   perspective: 1000px;
 }
 
-<<<<<<< HEAD
-.img-area{
-    
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transform: rotate(-360deg) translateZ(-100px);
-    animation: animate 40s steps(1000, end) infinite;
-=======
 .img-area {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transform: rotate(-360deg) translateZ(-300px);
   animation: animate 40s steps(1000, end) infinite;
->>>>>>> 6e694dfebe1c2d91d4accb9ea2850367a0ddebc5
 }
 .single-img {
   position: absolute;
