@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturesComponent implements OnInit {
 
+  panelOpenState = false;
   constructor() { }
 
   ngOnInit(): void {

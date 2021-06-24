@@ -9,18 +9,24 @@ import { FeaturesComponent } from './pages/features/features.component';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent,
-    FeaturesComponent 
+    LandingComponent, 
+    FeaturesComponent  
   ],
-  imports: [
+  imports: [ 
     BrowserModule,
     AppRoutingModule,
     MatSliderModule,
     MatButtonModule,
-    MatGridListModule
+    MatGridListModule,
+    MatExpansionModule,
+    BrowserAnimationsModule,
+    MatCardModule
 
   ],
   providers: [],
